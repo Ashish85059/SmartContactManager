@@ -1,0 +1,7 @@
+
+step1->run this command
+npx tailwindcss -i ./src/main/resources/static/css/input.css -o ./src/main/resources/static/css/output.css --watch
+
+
+step2-> inclide this in your html file
+<link rel="stylesheet" data-th-href="@{'/css/output.css'}">
